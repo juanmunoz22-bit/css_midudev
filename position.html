@@ -1,0 +1,55 @@
+<style>
+    .parent {
+        border: 5px solid #000;
+        width: 250px;
+        height: 1000px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .container {
+        background: #09f;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+    }
+
+    .container-sticky {
+        background: #09f;
+        width: 100px;
+        height: 100px;
+        position: sticky;
+        right: 0;
+        top: 0;
+    }
+
+    body {
+        background: rgb(188, 288, 255);
+    }
+</style>
+
+<section class="parent">
+    <div class="container">
+        container
+    </div>
+</section>
+
+<section class="parent">
+    <div class="container">
+        container
+    </div>
+</section>
+
+<section class="parent">
+    <div class="container-sticky">
+        container
+    </div>
+</section>
+
+<section class="parent">
+    <div class="container-sticky">
+        container
+    </div>
+</section>
